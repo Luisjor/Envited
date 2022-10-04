@@ -1,0 +1,49 @@
+.showEvent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    justify-items: center
+}
+
+.showEvent h1{
+    grid-column: 1/ span 2;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.showEvent img{
+    max-width: 500px;
+    grid-column: 2;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 1300px) {
+    .showEvent{
+        grid-template-columns: 1fr;
+    }
+
+    .partyData{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        grid-row: 3;
+    }
+    
+    .showEvent h1{
+        grid-row: 2;
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .showEvent img{
+        margin-top: 50px;
+        grid-column: 1;
+        grid-row: 1;
+        margin: 0px;
+        width: 95vw;
+    }
+}

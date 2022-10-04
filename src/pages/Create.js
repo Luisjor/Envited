@@ -21,8 +21,10 @@ export default function Create() {
                 <label>&#9999;&#65039; Description <small>(optional)</small></label>
                 <input type="text"></input>
                 <br/>
-                <input type="submit" value="Submit" onClick={preventDefault()}/>
             </form>
+            <a href="./event" className="aSubmit">
+                <button className="submitBtn">Create Event</button>
+            </a>
         </section>
     )
 }

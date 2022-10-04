@@ -1,6 +1,7 @@
 import React from "react"
 import LandingSVG from "./Images/landing.svg"
 import "./home.css"
+import Typed from 'react-typed';
 
 export default function Home() {
     return(
@@ -10,7 +11,13 @@ export default function Home() {
                 <section className="landingText">
                   <div className="landingTitle">
                     <h1>Imagine if <br/>
-                    <span className="auto-type">Snapchat</span> <br/>
+                    <span className="auto-type">
+                    <Typed
+                    strings={['Snapchat', 'Facebook', 'Instagram', 'Whatsapp', 'Messenger', 'Discord', 'Twitter', 'Group Chats']}
+                    typeSpeed={75}
+                    backSpeed={75}
+                    loop
+                /></span> <br/>
                     had events.</h1>
                   </div>
                   <div className="landingDescription">
