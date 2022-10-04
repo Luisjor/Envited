@@ -62,7 +62,7 @@
   
   .auto-type{
   font-weight: 700;
-  font-size: 54px;
+  font-size: 64px;
   line-height: 64px;
 
   background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
@@ -126,6 +126,11 @@
     .landingTitle h1{
       margin: 0px;
       font-weight: 700;
+      font-size: 36px;
+      line-height: 36px;
+    }
+
+    .auto-type{
       font-size: 36px;
       line-height: 36px;
     }
